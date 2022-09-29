@@ -2,15 +2,12 @@ public class Objective2Lab3 {
   public static void main(String[] args) {
 
 
-    int (15);
-    (15) = 1996;
-    String (6);
-    (6) = "June";
-    boolean (2);
-    (2) = false;
+    int fifteen = 1996;
+    String six = "June";
+    boolean two = false;
 
-    System.out.println(15);
-    System.out.println(6);
-    System.out.println(2);
+    System.out.println(fifteen);
+    System.out.println(six);
+    System.out.println(two);
   }
 }
