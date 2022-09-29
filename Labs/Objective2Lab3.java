@@ -2,9 +2,12 @@ public class Objective2Lab3 {
   public static void main(String[] args) {
 
 
-    int (15) = 1996;
-    String (6) = "June";
-    boolean (2) = false;
+    int (15);
+    (15) = 1996;
+    String (6);
+    (6) = "June";
+    boolean (2);
+    (2) = false;
 
     System.out.println(15);
     System.out.println(6);
