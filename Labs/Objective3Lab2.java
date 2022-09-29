@@ -1,6 +1,6 @@
 public class Objective3Lab2 {
   public static void main(String[] args) {
-    Double side1, side2, side1sqr, side2sqr, hypotenuse;
+    double side1, side2, side1sqr, side2sqr, hypotenuse;
 
     side1 = 8;
     side2 = 10;
