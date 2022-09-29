@@ -6,7 +6,7 @@ public class Objective3Lab3 {
     second = 1 + (int)(Math.random() * 6);
     third = 1 + (int)(Math.random() * 6);
     sum = first + second + third;
-    equation = first " + " second " + " third " +" " = " sum;
+    equation = first + " + " + second + " + " + third + " +" + " = " + sum;
 
     System.out.println(equation);
 
