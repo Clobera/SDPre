@@ -8,6 +8,6 @@ public class Objective3Lab2 {
     side2sqr = side2 * side2;
     hypotenuse = Math.sqrt(side1sqr + side2sqr);
 
-    System.out.Println(hypotenuse);
+    System.out.println(hypotenuse);
   }
 }
