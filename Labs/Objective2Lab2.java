@@ -4,6 +4,6 @@ public class Objective2Lab2 {
     int age = 47;
     String state = "Arkansas";
 
-    System.out.println(name + "Age:" + age + "State:" + state);
+    System.out.println(name + "\t" +"Age:" + "\t" + age + "\t" +"State:" + "\t" + state);
   }
 }
