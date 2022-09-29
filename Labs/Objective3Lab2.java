@@ -4,7 +4,7 @@ public class Objective3Lab2 {
 
     side1 = 8;
     side2 = 10;
-    hypotenuse = Math.sqrt((side1*side1) + (side2*side2));
+    hypotenuse = Math.sqrt(side1*side1 + side2*side2);
 
     System.out.Println(hypotenuse);
   }
