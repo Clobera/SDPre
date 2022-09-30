@@ -5,7 +5,7 @@ public class Objective4Lab3 {
     int birthYear, age, currentYear;
 
     currentYear = 2022;
-    birthYear = current currentYear - age;
+    birthYear = currentYear - age;
 
     Scanner input = new Scanner(System.in);
     System.out.println("How old are you?");
