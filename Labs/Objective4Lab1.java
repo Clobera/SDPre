@@ -5,7 +5,7 @@ public class Objective4Lab1 {
 
     Scanner scanner = new Scanner(System.in);
 
-    System.out.println("Enter First Name" + fname);
+    System.out.println("Enter First Name");
     String fname = scanner.nextLine();
     System.out.println("Enter Last Name");
     String lname = scanner.nextLine();
