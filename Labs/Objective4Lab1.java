@@ -1,8 +1,22 @@
-public class ScannerExample {
+import java.util.Scanner;
+
+public class Objective4Lab1 {
   public static void main(String[] args) {
-    java.util.Scanner scanner = new java.util.Scanner(System.in);
-    System.out.println("Please type something in!");
-    String userInput = keyboard.nextLine();
-    System.out.println("Hello " + userInput + "!");
+
+    Scanner keyboard = new Scanner(System.in);
+
+    System.out.println("Enter First Name" + fname);
+    String fname = scanner.nextline();
+    System.out.println("Enter Last Name");
+    String lname = scanner.nextline();
+    System.out.println("Enter Favorite Animal");
+    String favoriteAnimal = scanner.nextline();
+    System.out.println("Enter Favorite Food");
+    String favoriteFood = scanner.nextline();
+    System.out.println("Enter Favorite Song");
+    String favoriteSong = scanner.nextline();
+
+
+
   }
 }
