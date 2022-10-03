@@ -5,7 +5,7 @@ public class Objective5Lab4 {
     int num;
 
     System.out.println("Please enter a number :");
-    num = nextInt.();
+    num = scanner.nextInt();
 
 
     if(num % 2 == 0) {
