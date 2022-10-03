@@ -1,3 +1,4 @@
+import java.util.Scanner;
 public class Objective5Lab3 {
     public static void main(String[] args) {
       Scanner scanner = new Scanner(System.in);
@@ -8,7 +9,7 @@ public class Objective5Lab3 {
 
       System.out.println(userNum);
 
-      if(userNum.equals(0)) {
+      if(userNum == 0) {
         System.out.println("The number you entered is equal to zero.");
 
       }
