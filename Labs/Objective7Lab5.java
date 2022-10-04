@@ -12,18 +12,22 @@ public class Objective7Lab5 {
 
       selection = scanner.nextInt();
 
-      if(selection == 1) {
-        System.out.println("Hello Human");
-      }
 
-      else if(selection == 2) {
-        System.out.println("Tacos, Burritos, Chips & Queso");
-      }
+      switch(selection){
+        case 1:
+          System.out.println("Hello Human");
+          break;
+        case 2:
+          System.out.println("Tacos, Burritos, Chips & Queso");
+          break;
+        case 3:
+          System.out.println("Goodbye!");
+          break;
+        default:
+          System.out.println("Invalid entry: Please choose from the menu.");
+        }
 
-      else if(selection == 3) {
-        System.out.println("Goodbye!");
       }
-    }
 
     scanner.close();
   }
