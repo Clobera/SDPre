@@ -13,7 +13,6 @@ public class Objective7Lab5 {
 
       selection = scanner.nextInt();
 
-
       switch(selection){
         case 1:
           System.out.println("Hello Human");
@@ -28,8 +27,35 @@ public class Objective7Lab5 {
           System.out.println("Invalid entry: Please choose from the menu.");
         }
 
-      }
+
+    }
 
     scanner.close();
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+switch(selection){
+  case 1:
+    System.out.println("Hello Human");
+    break;
+  case 2:
+    System.out.println("Tacos, Burritos, Chips & Queso");
+    break;
+  case 3:
+    System.out.println("Goodbye!");
+    break;
+  default:
+    System.out.println("Invalid entry: Please choose from the menu.");
+  }
