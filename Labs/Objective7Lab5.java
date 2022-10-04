@@ -12,15 +12,15 @@ public class Objective7Lab5 {
 
       selection = scanner.nextInt();
 
-      if(selection = 1) {
+      if(selection == 1) {
         System.out.println("Hello Human");
       }
 
-      else if(selection = 2) {
+      else if(selection == 2) {
         System.out.println("Tacos, Burritos, Chips & Queso");
       }
 
-      else if(selection = 3) {
+      else if(selection == 3) {
         System.out.println("Goodbye!");
       }
     }
