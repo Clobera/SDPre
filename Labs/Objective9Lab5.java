@@ -24,8 +24,8 @@ public class Objective9Lab5 {
 		while (keepGoing) {
 			printMenu();
 
-			System.out.print("Which would you like to do? ");
-			choice = kb.nextInt();
+			                 System.out.print("Which would you like to do? ");
+                       choice = kb.nextInt();
 
 			switch (choice) {
       case 1:
@@ -49,8 +49,8 @@ public class Objective9Lab5 {
         System.out.println("Invalid entry.  Please try again");
 		   }
 
+     }
 		kb.close();
-	}
 
 }
 	public static void printMenu() {
