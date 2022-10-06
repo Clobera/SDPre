@@ -24,15 +24,15 @@ public class Objective9Lab5 {
 
 			switch (choice) {
       case 1:
-        System.out.println(num1 + " + " + num2 " = " + findsum(num1, num2));
+        System.out.println(num1 + " + " + num2 " = " + );
         break;
 
       case 2:
-        System.out.println("The average of " + num1 + "and " + num2 + " = " findAverage(num1, num2));
+        System.out.println("The average of " + num1 + "and " + num2 + " = " );
         break;
 
       case 3:
-        System.out.println("The amount in tax to be collected from a purchase of "num1 + "and " + num2 + " = " + calcTax(num1,num2));
+        System.out.println("The amount in tax to be collected from a purchase of "num1 + "and " + num2 + " = " + );
         break;
 
       case 4:
@@ -43,6 +43,13 @@ public class Objective9Lab5 {
       default:
         System.out.println("Invalid entry.  Please try again");
 		   }
+
+       double answersum = findsum(num1, num2);
+       double answerave = findAverage(num1, num2);
+       double answertax = calcTax(num1,num2);
+
+
+
 		kb.close();
 	}
 
