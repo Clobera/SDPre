@@ -29,15 +29,15 @@ public class Objective9Lab5 {
 
 			switch (choice) {
       case 1:
-        System.out.println(num1 + " + " + num2 " = " + answersum);
+        System.out.println(num1 + " + " + num2 + " = " + answersum);
         break;
 
       case 2:
-        System.out.println("The average of " + num1 + "and " + num2 + " = " answerave);
+        System.out.println("The average of " + num1 + "and " + num2 + " = " + answerave);
         break;
 
       case 3:
-        System.out.println("The amount in tax to be collected from a purchase of "num1 + "and " + num2 + " = " + answertax);
+        System.out.println("The amount in tax to be collected from a purchase of " + num1 + " and " + num2 + " = " + answertax);
         break;
 
       case 4:
