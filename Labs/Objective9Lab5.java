@@ -29,23 +29,24 @@ public class MethodsLab4 {
       // Complete this switch, with each case calling one of the methods below,
       // then printing out the result (refer to "Expected Output" below)
 			// Don't forget to account for a user accidentally inputting an invalid number!
-      if(choice == 1) {
+      case 1:
         System.out.println(num1 + " + " + num2 " = " + findsum());
-      }
-      else if(choice == 2) {
+        break;
+
+      case 2:
         System.out.println("The average of " + num1 + "and " + num2 + " = " = findAverage());
-      }
-      else if(choice == 3) {
+        break;
+
+      case 3:
         System.out.println("The amount in tax to be collected from a purchase of "num1 + "and " + num2 + " = " + calcTax());
-      }
-      else if(choice == 4) {
+        break;
+
+      case 4:
         System.out.println("You've chosen to quit.");
         break;
-      }
-      else {
-        System.out.println("Invalid entry.  Please try again");
-      }
 
+      default:
+        System.out.println("Invalid entry.  Please try again");
 		}
 		kb.close();
 
