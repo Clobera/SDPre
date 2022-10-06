@@ -17,7 +17,7 @@ public class Objective9Lab4 {
   }
 
   public static double findAverage(double x, double y) {
-    double findave = (x + y) % 2;
+    double findave = (x + y) / 2;
     return findave;
   }
 }
