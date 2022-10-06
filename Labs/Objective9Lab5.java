@@ -33,7 +33,7 @@ public class Objective9Lab5 {
         break;
 
       case 2:
-        System.out.println("The average of " + num1 + "and " + num2 + " = " + answerave);
+        System.out.println("The average of " + num1 + " and " + num2 + " = " + answerave);
         break;
 
       case 3:
@@ -42,6 +42,8 @@ public class Objective9Lab5 {
 
       case 4:
         System.out.println("You've chosen to quit.");
+        System.out.println("Ciao!");
+        System.out.println();
         keepGoing = false;
         break;
 
