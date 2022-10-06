@@ -16,23 +16,28 @@ public class Objective9Lab5 {
     System.out.println("Please enter another number: ");
     num2 = kb.nextDouble();
 
+    double answersum = findsum(num1, num2);
+    double answerave = findAverage(num1, num2);
+    double answertax = calcTax(num1,num2);
+
 
 		while (keepGoing) {
 			printMenu();
+
 			System.out.print("Which would you like to do? ");
 			choice = kb.nextInt();
 
 			switch (choice) {
       case 1:
-        System.out.println(num1 + " + " + num2 " = " + );
+        System.out.println(num1 + " + " + num2 " = " + answersum);
         break;
 
       case 2:
-        System.out.println("The average of " + num1 + "and " + num2 + " = " );
+        System.out.println("The average of " + num1 + "and " + num2 + " = " answerave);
         break;
 
       case 3:
-        System.out.println("The amount in tax to be collected from a purchase of "num1 + "and " + num2 + " = " + );
+        System.out.println("The amount in tax to be collected from a purchase of "num1 + "and " + num2 + " = " + answertax);
         break;
 
       case 4:
@@ -44,16 +49,10 @@ public class Objective9Lab5 {
         System.out.println("Invalid entry.  Please try again");
 		   }
 
-       double answersum = findsum(num1, num2);
-       double answerave = findAverage(num1, num2);
-       double answertax = calcTax(num1,num2);
-
-
-
 		kb.close();
 	}
 
-
+}
 	public static void printMenu() {
 		System.out.println();
 		System.out.println("========= MENU =========");
@@ -66,7 +65,7 @@ public class Objective9Lab5 {
 		System.out.println("========================");
 		System.out.println();
 	}
-}
+
 
 	public static double findSum(double x, double y) {
 		double sum = x + y;
