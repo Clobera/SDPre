@@ -6,11 +6,12 @@ public class ObjectiveLab3 {
 
     while(true){
       printMenu();
+
       selection = scanner.nextInt();
 
       if(selection == 1){
         System.out.println("Hello Human");
-      }
+      }  
       else if(selection == 2){
         System.out.println("Tacos, Burritos, Chips & Queso");
       }
