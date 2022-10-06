@@ -6,7 +6,7 @@ public class ObjectiveLab3 {
 
     while(true){
       printMenu();
-      selection = scanner.nextInt.();
+      selection = scanner.nextInt();
 
       if(selection == 1){
         System.out.println("Hello Human");
