@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class ObjectiveLab3 {
+public class Objective9Lab3 {
   public static void main(String[] args) {
     Scanner scanner = new Scanner(System.in);
     int selection;
@@ -11,7 +11,7 @@ public class ObjectiveLab3 {
 
       if(selection == 1){
         System.out.println("Hello Human");
-      }  
+      }
       else if(selection == 2){
         System.out.println("Tacos, Burritos, Chips & Queso");
       }
