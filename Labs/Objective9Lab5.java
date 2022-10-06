@@ -16,7 +16,7 @@ public class Objective9Lab5 {
     System.out.println("Please enter another number: ");
     num2 = kb.nextDouble();
 
-    double answersum = findsum(num1, num2);
+    double answersum = findSum(num1, num2);
     double answerave = findAverage(num1, num2);
     double answertax = calcTax(num1,num2);
 
